@@ -32,7 +32,7 @@ int c;
   
  }
  for(int h=0;h<listapersona.size();h++){
- System.out.println((h+1)+"."+listapersona.get(h).nombre+"su temperatura es de: "+listapersona.get(h).temperatura);
+ System.out.println((h+1)+"-"+listapersona.get(h).nombre+"su temperatura es de: "+listapersona.get(h).temperatura);
      }
       
     }

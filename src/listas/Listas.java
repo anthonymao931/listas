@@ -28,7 +28,7 @@ int c;
  for(int i=0;i<c;i++){
      listapersona.add(new familia());
   System.out.println("la persona fue añadida");
-  System.out.println("tamaño de la lista despues de primer elemento: "+listapersona.size());
+  System.out.println("tamaño de la lista despues del anterior elemento "+listapersona.size());
   
  }
  for(int h=0;h<listapersona.size();h++){
@@ -36,7 +36,7 @@ int c;
      }
   for(int m=0;m<listapersona.size();m++){
       System.out.println("datos de la persona");
- System.out.println((m+1)+"parentesco= "+listapersona.get(m).parentesco+" grados= "+listapersona.get(m).temperatura+" años= "+listapersona.get(m).edad);
+ System.out.println((m+1)+"parentesco= "+listapersona.get(m).parentesco+" grados="+listapersona.get(m).temperatura+" edad="+listapersona.get(m).edad);
     }
     }
     }

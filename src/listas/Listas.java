@@ -24,7 +24,7 @@ ArrayList<familia> listapersona= new ArrayList<familia>();
 System.out.println("tamaño de la lista: "+listapersona.size());
 
 familia p1 = new familia(35,"Lucia Mama", 35.4);
-familia p2 = new familia(18,"andres Hijo", 35.6);
+familia p2 = new familia(18,"Martin Hijo", 35.6);
 listapersona.add(p1);
 listapersona.add(p2);
 p1.mostrardatos();

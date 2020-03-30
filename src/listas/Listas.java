@@ -41,7 +41,11 @@ p3.mostrardatos();
 p4.mostrardatos();
 p5.mostrardatos();
 p6.mostrardatos();
+
+System.out.println("***************************************************** ");
 System.out.println("la temperatura de todos los mienbros de la familia es ");
+System.out.println("***************************************************** ");
+
 p1.datostemperatura();
 p2.datostemperatura();
 p3.datostemperatura();

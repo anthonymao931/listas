@@ -22,7 +22,6 @@ public class Listas {
         // TODO code application logic here
 Scanner entradateclado = new Scanner(System.in);
 ArrayList<familia> listapersona= new ArrayList<familia>();
-
 int c;
  System.out.println("diguite la cantidad de personas");
  c =entradateclado.nextInt();

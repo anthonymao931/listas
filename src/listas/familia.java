@@ -38,13 +38,11 @@ public class familia {
         return temperatura;
     }
         String ingresoparentesco(){
-        
         System.out.print("Ingrese el parentesco de la persona: ");
         parentesco = entradateclado.nextLine();  
         return parentesco;
     }
     int ingresoedad(){
-        
         System.out.print("Ingrese la edad de la persona: ");
         edad = Integer.parseInt(entradateclado.nextLine());  
         return edad;

@@ -22,14 +22,15 @@ public class Listas {
         // TODO code application logic here
 Scanner entradateclado = new Scanner(System.in);
 ArrayList<familia> listapersona= new ArrayList<familia>();
-System.out.println("tamaño de la lista: "+listapersona.size());
+
 int c;
  System.out.println("diguite la cantidad de personas");
  c =entradateclado.nextInt();
  for(int i=0;i<c;i++){
      listapersona.add(new familia());
-  System.out.println("Persona creada correctamente.");
+  System.out.println("la persona fue añadida");
   System.out.println("tamaño de la lista despues de primer elemento: "+listapersona.size());
+  
  }
  for(int h=0;h<listapersona.size();h++){
  System.out.println((h+1)+"."+listapersona.get(h).nombre+"su temperatura es de: "+listapersona.get(h).temperatura);

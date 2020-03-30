@@ -38,7 +38,7 @@ public class familia {
         return temperatura;
     }
         String ingresoparentesco(){
-        System.out.print("Ingrese el parentesco de la persona: ");
+        System.out.print("Ingrese el parentesco de la persona(Papa, mamá, hijo, hija, abuelo, abuela): ");
         parentesco = entradateclado.nextLine();  
         return parentesco;
     }

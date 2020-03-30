@@ -21,7 +21,7 @@ public class Listas {
         // TODO code application logic here
      
 ArrayList<familia> listapersona= new ArrayList<familia>();
-System.out.println("tamaño de la lista: "+listapersona.size());
+System.out.println("tamaño de la lista: "+listapersona.size());//DIEGO ES GEI
 
 familia p1 = new familia(35,"Lucia -Mama", 35.4);
 familia p2 = new familia(18,"Mario -Hijo", 36.6);

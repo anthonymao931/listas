@@ -32,11 +32,11 @@ int c;
   
  }
  for(int h=0;h<listapersona.size();h++){
- System.out.println((h+1)+"-"+listapersona.get(h).nombre+"su temperatura es de: "+listapersona.get(h).temperatura);
+ System.out.println((h+1)+"-"+listapersona.get(h).nombre+"  su temperatura es de: "+listapersona.get(h).temperatura);
      }
   for(int m=0;m<listapersona.size();m++){
-      System.out.println("datos de las personas");
- System.out.println((m+1)+"-"+listapersona.get(m).parentesco+"-"+listapersona.get(m).temperatura+"-"+listapersona.get(m).edad+"-");
+      System.out.println("datos de la persona");
+ System.out.println((m+1)+"parentesco= "+listapersona.get(m).parentesco+" grados= "+listapersona.get(m).temperatura+" años= "+listapersona.get(m).edad);
     }
     }
     }
